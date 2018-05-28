@@ -1,0 +1,11 @@
+html
+    head
+        title Sondage
+        link(rel="stylesheet", href="/css/styles.css")
+    body
+        main
+            p Bonjour #{user.fullname}
+            p Pour créer un sondage, allez ici
+            a(href="/création").link-class Créer un sondage
+            p Pour consulter la liste de vos sondages crées, cliquez sur ce lien
+            a(href="/Liste").link-class Liste des sondages
